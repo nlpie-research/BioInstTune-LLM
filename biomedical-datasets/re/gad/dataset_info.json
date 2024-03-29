@@ -1,0 +1,52 @@
+{
+  "builder_name": "gad",
+  "citation": "@article{Bravo2015,\n  doi = {10.1186/s12859-015-0472-9},\n  url = {https://doi.org/10.1186/s12859-015-0472-9},\n  year = {2015},\n  month = feb,\n  publisher = {Springer Science and Business Media {LLC}},\n  volume = {16},\n  number = {1},\n  author = {{\\`{A}}lex Bravo and Janet Pi{\\~{n}}ero and N{'{u}}ria Queralt-Rosinach and Michael Rautschka and Laura I Furlong},\n  title = {Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research},\n  journal = {{BMC} Bioinformatics}\n}\n",
+  "config_name": "gad_fold0_source",
+  "dataset_name": "gad",
+  "dataset_size": 1013278,
+  "description": "A corpus identifying associations between genes and diseases by a semi-automatic\nannotation procedure based on the Genetic Association Database\n",
+  "download_checksums": {
+    "data/REdata.zip": {
+      "num_bytes": 2973735,
+      "checksum": null
+    }
+  },
+  "download_size": 2973735,
+  "features": {
+    "index": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int32",
+      "_type": "Value"
+    }
+  },
+  "homepage": "https://github.com/dmis-lab/biobert",
+  "license": "CC_BY_4p0",
+  "size_in_bytes": 3987013,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 906733,
+      "num_examples": 4796,
+      "dataset_name": "gad"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 106545,
+      "num_examples": 534,
+      "dataset_name": "gad"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}

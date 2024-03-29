@@ -1,0 +1,68 @@
+{
+  "builder_name": "hallmarks_of_cancer",
+  "citation": "@article{DBLP:journals/bioinformatics/BakerSGAHSK16,\n  author    = {Simon Baker and\n               Ilona Silins and\n               Yufan Guo and\n               Imran Ali and\n               Johan H{\"{o}}gberg and\n               Ulla Stenius and\n               Anna Korhonen},\n  title     = {Automatic semantic classification of scientific literature\n               according to the hallmarks of cancer},\n  journal   = {Bioinform.},\n  volume    = {32},\n  number    = {3},\n  pages     = {432--440},\n  year      = {2016},\n  url       = {https://doi.org/10.1093/bioinformatics/btv585},\n  doi       = {10.1093/bioinformatics/btv585},\n  timestamp = {Thu, 14 Oct 2021 08:57:44 +0200},\n  biburl    = {https://dblp.org/rec/journals/bioinformatics/BakerSGAHSK16.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org}\n}\n",
+  "config_name": "hallmarks_of_cancer_bigbio_text",
+  "dataset_name": "hallmarks_of_cancer",
+  "dataset_size": 3627589,
+  "description": "The Hallmarks of Cancer (HOC) Corpus consists of 1852 PubMed publication\nabstracts manually annotated by experts according to a taxonomy. The taxonomy\nconsists of 37 classes in a hierarchy. Zero or more class labels are assigned\nto each sentence in the corpus. The labels are found under the \"labels\"\ndirectory, while the tokenized text can be found under \"text\" directory.\nThe filenames are the corresponding PubMed IDs (PMID).\n",
+  "download_checksums": {
+    "https://github.com/sb895/Hallmarks-of-Cancer/archive/refs/heads/master.zip": {
+      "num_bytes": 2182118,
+      "checksum": null
+    },
+    "https://microsoft.github.io/BLURB/sample_code/data_generation.tar.gz": {
+      "num_bytes": 54142,
+      "checksum": null
+    }
+  },
+  "download_size": 2236260,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "document_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "labels": [
+      {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    ]
+  },
+  "homepage": "https://github.com/sb895/Hallmarks-of-Cancer",
+  "license": "GNU General Public License v3.0 only",
+  "size_in_bytes": 5863849,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2516798,
+      "num_examples": 12119,
+      "dataset_name": "hallmarks_of_cancer"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 734473,
+      "num_examples": 3547,
+      "dataset_name": "hallmarks_of_cancer"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 376318,
+      "num_examples": 1798,
+      "dataset_name": "hallmarks_of_cancer"
+    }
+  },
+  "version": {
+    "version_str": "1.0.0",
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  }
+}
