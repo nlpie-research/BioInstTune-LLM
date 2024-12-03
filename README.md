@@ -7,10 +7,16 @@ This repository contains the code and data related to the experiments in the pap
 If you use this material, please cite the paper:
 
 ```
-@article{rohanian2023exploring,
-title={Exploring the Effectiveness of Instruction Tuning in Biomedical Language Processing},
-author={Rohanian, Omid and Nouriborji, Mohammadmahdi and Clifton, David A},
-journal={arXiv preprint arXiv:2401.00579},
-year={2023}
+@article{rohanian2024exploring,
+  title = {Exploring the Effectiveness of Instruction Tuning in Biomedical Language Processing},
+  author = {Rohanian, Omid and Nouriborji, Mohammadmahdi and Kouchaki, Samaneh and Nooralahzadeh, Farhad and Clifton, Lei and Clifton, David A},
+  journal = {Artificial Intelligence in Medicine},
+  volume = {158},
+  pages = {103007},
+  year = {2024},
+  publisher = {Elsevier},
+  doi = {10.1016/j.artmed.2024.103007},
+  url = {https://www.sciencedirect.com/science/article/pii/S0933365724002495},
+  issn = {0933-3657}
 }
 ```
